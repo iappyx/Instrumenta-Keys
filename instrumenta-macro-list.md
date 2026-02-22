@@ -1,247 +1,294 @@
-
 # Macro List
-Below is the list of Instrumenta macro references you can use:
+Below is the list of Instrumenta (v1.66) macro references you can use:
 
-| Macro Description                                         | Macro Reference                  |
-|-----------------------------------------------------------|----------------------------------|
-| Open Instrumenta Keys Shortcut Editor | InstrumentaKeysEditor | 
-| Copy selected slides to slide library | AddSelectedSlidesToLibraryFile | 
-| Anonymize all/selected slides with Lorem Ipsum | AnonymizeWithLoremIpsum | 
-| Apply same crop to selected pictures | ApplySameCropToSelectedImages | 
-| Arrange shapes | ArrangeShapes | 
-| Average based on selected star ratings | AverageFivePointStars | 
-| Average based on selected Harvey Balls | AverageHarveyBall | 
-| Average based on selected RAG status-shapes | AverageRAGStatus | 
-| Add page numbers to all/selected slides (except the first) | CleanUpAddSlideNumbers | 
-| Move to end and hide selected slides | CleanUpHideAndMoveSelectedSlides | 
-| Remove animations from all/selected slides | CleanUpRemoveAnimationsFromAllSlides | 
-| Remove comments from all/selected slides | CleanUpRemoveCommentsFromAllSlides | 
-| Remove all hidden slides | CleanUpRemoveHiddenSlides | 
-| Remove entry transitions from all/selected slides | CleanUpRemoveSlideShowTransitionsFromAllSlides | 
-| Remove speaker notes from all/selected slides | CleanUpRemoveSpeakerNotesFromAllSlides | 
-| Remove all unused master slides | CleanUpRemoveUnusedMasterSlides | 
-| Color bold text (automatically) | ColorBoldTextColorAutomatically | 
-| Color bold text (color picker) | ColorBoldTextColorPicker | 
-| Connect shape 1 bottom side to shape 2 top side | ConnectRectangleShapesBottomToTop | 
-| Connect shape 1 left side to shape 2 right side | ConnectRectangleShapesLeftToRight | 
-| Connect shape 1 right side to shape 2 left side | ConnectRectangleShapesRightToLeft | 
-| Connect shape 1 top side to shape 2 bottom side | ConnectRectangleShapesTopToBottom | 
-| Convert comments on all slides to notes | ConvertAllCommentsToStickyNotes | 
-| Convert comments on this slide to notes | ConvertCommentsToStickyNotes | 
-| Convert shapes to table | ConvertShapesToTable | 
-| Convert all/selected slides to pictures (readonly) | ConvertSlidesToPictures | 
-| Convert table to shapes | ConvertTableToShapes | 
-| Copy position and dimensions | CopyPosition | 
-| Copy slide notes to clipboard | CopySlideNotesToClipboardOnly | 
-| Export slide notes to Word | CopySlideNotesToWord | 
-| Copy storyline to clipboard | CopyStorylineToClipBoardOnly | 
-| Export storyline to Word | CopyStorylineToWord | 
-| Create or update agenda pages | CreateOrUpdateMasterAgenda | 
-| Delete Stamps on all slides | DeleteStampsOnAllSlides | 
-| Delete Stamps on this slide | DeleteStampsOnSlide | 
-| Delete notes on all slides | DeleteStickyNotesOnAllSlides | 
-| Delete notes on this slide | DeleteStickyNotesOnSlide | 
-| Delete selected multislide shape on all slides | DeleteTaggedShapes | 
-| E-mail selected slides | EmailSelectedSlides | 
-| E-mail selected slides as PDF | EmailSelectedSlidesAsPDF | 
-| Mail merge full presentation based on Excel-file (duplicate presentation file) | ExcelFullFileMailMerge | 
-| Mail merge this slide based on Excel-file (duplicate slide within this presentation) | ExcelMailMerge | 
-| Add cross-slide steps counter | GenerateCrossSlideStepsCounter | 
-| 0.5 star | GenerateFivePointStars05 | 
-| 1 star | GenerateFivePointStars10 | 
-| 1.5 star | GenerateFivePointStars15 | 
-| 2 star | GenerateFivePointStars20 | 
-| 2.5 star | GenerateFivePointStars25 | 
-| 3 star | GenerateFivePointStars30 | 
-| 3.5 star | GenerateFivePointStars35 | 
-| 4 star | GenerateFivePointStars40 | 
-| 4.5 star | GenerateFivePointStars45 | 
-| 5 star | GenerateFivePointStars50 | 
-| Harvey Ball 10% | GenerateHarveyBall10 | 
-| Harvey Ball 100% | GenerateHarveyBall100 | 
-| Harvey Ball 20% | GenerateHarveyBall20 | 
-| Harvey Ball 25% | GenerateHarveyBall25 | 
-| Harvey Ball 30% | GenerateHarveyBall30 | 
-| Harvey Ball 33% | GenerateHarveyBall33 | 
-| Harvey Ball 40% | GenerateHarveyBall40 | 
-| Harvey Ball 50% | GenerateHarveyBall50 | 
-| Harvey Ball 60% | GenerateHarveyBall60 | 
-| Harvey Ball 67% | GenerateHarveyBall67 | 
-| Harvey Ball 70% | GenerateHarveyBall70 | 
-| Harvey Ball 75% | GenerateHarveyBall75 | 
-| Harvey Ball 80% | GenerateHarveyBall80 | 
-| Harvey Ball 90% | GenerateHarveyBall90 | 
-| Custom Harvey Ball | GenerateHarveyBallCustom | 
-| RAG status - Amber | GenerateRAGStatusAmber | 
-| RAG status - Green | GenerateRAGStatusGreen | 
-| RAG status - Red | GenerateRAGStatusRed | 
-| Stamp CONFIDENTIAL | GenerateStampConfidential | 
-| Stamp DO NOT DISTRIBUTE | GenerateStampDoNotDistribute | 
-| Stamp DRAFT | GenerateStampDraft | 
-| Stamp NEW | GenerateStampNew | 
-| Stamp TO APPENDIX | GenerateStampToAppendix | 
-| Stamp TO BE REMOVED | GenerateStampToBeRemoved | 
-| Stamp UPDATED | GenerateStampUpdated | 
-| Add steps counter | GenerateStepsCounter | 
-| Insert sticky note | GenerateStickyNote | 
-| Group shapes by columns | GroupShapesByColumns | 
-| Group shapes by rows | GroupShapesByRows | 
-| Hide slidetags on all slides | HideTagsOnSlide | 
-| Insert merge fields from Excel-file | ImportHeadersFromExcel | 
-| Increase shape transparency | IncreaseShapeTransparency | 
-| Set position | InitialiseSetPositionAppEventHandler | 
-| Insert caption for selected shape | InsertCaption | 
-| Insert column left (preserve widths) | InsertColumnToLeftKeepOtherColumnWidths | 
-| Insert column right (preserve widths) | InsertColumnToRightKeepOtherColumnWidths | 
-| Insert empty merge field | InsertMergeField | 
-| Insert process (SmartArt) | InsertProcessSmartArt | 
-| Insert QR-code | InsertQRCode | 
-| Watermark and then convert all/selected slides to pictures (readonly) | InsertWatermarkAndConvertSlidesToPictures | 
-| Lock position of all shapes on all slides | LockAllShapesOnAllSlides | 
-| Toggle lock aspect ratio of selected shape(s) | LockAspectRatioToggleSelectedShapes | 
-| Toggle lock or unlock position all shapes on all slides | LockToggleAllShapesOnAllSlides | 
-| Toggle lock or unlock position of selected shapes | LockToggleSelectedShapes | 
-| Manually replace all merge fields on all slides | ManualMailMerge | 
-| Move Stamps off all slides | MoveStampsOffAllSlides | 
-| Move Stamps off this slide | MoveStampsOffSlide | 
-| Move Stamps on all slides | MoveStampsOnAllSlides | 
-| Move Stamps on this slide | MoveStampsOnSlide | 
-| Move notes off all slides | MoveStickyNotesOffAllSlides | 
-| Move notes off this slide | MoveStickyNotesOffSlide | 
-| Move notes on all slides | MoveStickyNotesOnAllSlides | 
-| Move notes on this slide | MoveStickyNotesOnSlide | 
-| Move column left | MoveTableColumnLeft | 
-| Move column left (ignore borders) | MoveTableColumnLeftIgnoreBorders | 
-| Move column left (text only) | MoveTableColumnLeftTextOnly | 
-| Move column right | MoveTableColumnRight | 
-| Move column right (ignore borders) | MoveTableColumnRightIgnoreBorders | 
-| Move column right (text only) | MoveTableColumnRightTextOnly | 
-| Move row down | MoveTableRowDown | 
-| Move row down (ignore borders) | MoveTableRowDownIgnoreBorders | 
-| Move row down (text only) | MoveTableRowDownTextOnly | 
-| Move row up | MoveTableRowUp | 
-| Move row up (ignore borders) | MoveTableRowUpIgnoreBorders | 
-| Move row up (text only) | MoveTableRowUpTextOnly | 
-| Align bottom | ObjectsAlignBottoms | 
-| Align center | ObjectsAlignCenters | 
-| Align left | ObjectsAlignLefts | 
-| Align middle | ObjectsAlignMiddles | 
-| Align right | ObjectsAlignRights | 
-| Align top | ObjectsAlignTops | 
-| Center align shapes to table cells | ObjectsAlignToTable | 
-| Center align shapes to columns of a table | ObjectsAlignToTableColumn | 
-| Center align shapes to rows of a table | ObjectsAlignToTableRow | 
-| Do not Autofit | ObjectsAutoSizeNone | 
-| Resize shape to fit text | ObjectsAutoSizeShapeToFitText | 
-| Resize text on overflow | ObjectsAutoSizeTextToFitShape | 
-| Clone selection down | ObjectsCloneDown | 
-| Clone selection to right | ObjectsCloneRight | 
-| Copy rounded corner of first selected shape to selected shapes | ObjectsCopyRoundedCorner | 
-| Copy shape type and all adjustments of first selected shape to selected shapes | ObjectsCopyShapeTypeAndAdjustments | 
-| Decrease line spacing | ObjectsDecreaseLineSpacing | 
-| Decrease line spacing before and after | ObjectsDecreaseLineSpacingBeforeAndAfter | 
-| Decrease horizontal gap between shapes | ObjectsDecreaseSpacingHorizontal | 
-| Decrease vertical gap between shapes | ObjectsDecreaseSpacingVertical | 
-| Distribute horizontally | ObjectsDistributeHorizontally | 
-| Distribute vertically | ObjectsDistributeVertically | 
-| Increase line spacing | ObjectsIncreaseLineSpacing | 
-| Increase line spacing before and after | ObjectsIncreaseLineSpacingBeforeAndAfter | 
-| Increase horizontal gap between shapes | ObjectsIncreaseSpacingHorizontal | 
-| Increase vertical gap between shapes | ObjectsIncreaseSpacingVertical | 
-| Decrease margins | ObjectsMarginsDecrease | 
-| Increase margins | ObjectsMarginsIncrease | 
-| Remove margins | ObjectsMarginsToZero | 
-| Remove hyperlinks | ObjectsRemoveHyperlinks | 
-| Remove horizontal gap between shapes | ObjectsRemoveSpacingHorizontal | 
-| Remove vertical gap between shapes | ObjectsRemoveSpacingVertical | 
-| Remove text | ObjectsRemoveText | 
-| Set same height | ObjectsSameHeight | 
-| Set same height and width | ObjectsSameHeightAndWidth | 
-| Set same width | ObjectsSameWidth | 
-| Select shapes with same fill and line color | ObjectsSelectBySameFillAndLineColor | 
-| Select shapes with same fill color | ObjectsSelectBySameFillColor | 
-| Select shapes with same height | ObjectsSelectBySameHeight | 
-| Select shapes with same line color | ObjectsSelectBySameLineColor | 
-| Select shapes with same type | ObjectsSelectBySameType | 
-| Select shapes with same width | ObjectsSelectBySameWidth | 
-| Select shapes with same size | ObjectsSelectBySameWidthAndHeight | 
-| Size to narrowest | ObjectsSizeToNarrowest | 
-| Size to shortest | ObjectsSizeToShortest | 
-| Size to tallest | ObjectsSizeToTallest | 
-| Size to widest | ObjectsSizeToWidest | 
-| Stretch shapes to bottom | ObjectsStretchBottom | 
-| Stretch shapes to the top edge of the bottommost shape | ObjectsStretchBottomShapeTop | 
-| Stretch shapes to left | ObjectsStretchLeft | 
-| Stretch shapes to the right edge of the leftmost shape | ObjectsStretchLeftShapeRight | 
-| Stretch shapes to right | ObjectsStretchRight | 
-| Stretch shapes to the left edge of the rightmost shape | ObjectsStretchRightShapeLeft | 
-| Stretch shapes to top | ObjectsStretchTop | 
-| Stretch shapes to the bottom edge of the topmost shape | ObjectsStretchTopShapeBottom | 
-| Swap position of two shapes | ObjectsSwapPosition | 
-| Swap position of two shapes (centered) | ObjectsSwapPositionCentered | 
-| Swap text (with formatting) | ObjectsSwapText | 
-| Swap text (no formatting) | ObjectsSwapTextNoFormatting | 
-| Delete strikethrough text | ObjectsTextDeleteStrikethrough | 
-| Merge text of all shapes in first selected shape | ObjectsTextMerge | 
-| Split (by paragraphs) into multiple shapes | ObjectsTextSplitByParagraph | 
-| Toggle text wrap | ObjectsTextWordwrapToggle | 
-| Toggle autofit | ObjectsToggleAutoSize | 
-| Open slide library file | OpenSlideLibraryFile | 
-| Optimized (10 iterations) | OptimizeTableHeight10Iterations | 
-| Optimized (20 iterations) | OptimizeTableHeight20Iterations | 
-| Optimized (3 iterations) | OptimizeTableHeight3Iterations | 
-| Optimized (5 iterations) | OptimizeTableHeight5Iterations | 
-| Quick | OptimizeTableHeightQuick | 
-| Paste position | PastePosition | 
-| Paste position and dimensions | PastePositionAndDimensions | 
-| Paste storyline in shape | PasteStorylineInSelectedShape | 
-| Crop picture or shape to slide | PictureCropToSlide | 
-| Rectify lines | RectifyLines | 
-| Renumber all captions | ReNumberCaptions | 
-| Resize and space horizontally (equal spacing) | ResizeAndSpaceEvenHorizontal | 
-| Resize and space horizontally (preserve first) | ResizeAndSpaceEvenHorizontalPreserveFirst | 
-| Resize and space horizontally (preserve last) | ResizeAndSpaceEvenHorizontalPreserveLast | 
-| Resize and space vertically (equal spacing) | ResizeAndSpaceEvenVertical | 
-| Resize and space vertically (preserve first) | ResizeAndSpaceEvenVerticalPreserveFirst | 
-| Resize and space vertically (preserve last) | ResizeAndSpaceEvenVerticalPreserveLast | 
-| Save selected slides | SaveSelectedSlides | 
-| Select all cross-slide step counters on this slide | SelectAllCrossSlideStepsCounter | 
-| Select all step counters on this slide | SelectAllStepsCounter | 
-| Show about dialog | ShowAboutDialog | 
-| Set proofing language on all objects and all slides | ShowChangeSpellCheckLanguageForm | 
-| Copy shape to multiple slides (multislide shape) | ShowFormCopyShapeToMultipleSlides | 
-| Manage hidden tags to shapes or slides | ShowFormManageTags | 
-| Select slides by tag(s) or specific stamp | ShowFormSelectSlidesByTag | 
-| Instrumenta settings | ShowSettings | 
-| Insert slide from slide library | ShowSlideLibrary | 
-| Show slidetags on all slides | ShowTagsOnSlide | 
-| Split table by column | SplitTableByColumn | 
-| Split table by row | SplitTableByRow | 
-| Decrease column gaps | TableColumnDecreaseGaps | 
-| Add column gaps | TableColumnGapsEven | 
-| Add column gaps (including left and right sides) | TableColumnGapsOdd | 
-| Increase column gaps | TableColumnIncreaseGaps | 
-| Remove column gaps | TableColumnRemoveGaps | 
-| Distribute columns ignoring column gaps | TableDistributeColumnsWithGaps | 
-| Distribute rows ignoring row gaps | TableDistributeRowsWithGaps | 
-| Quick format table | TableQuickFormat | 
-| Remove cell fills | TableRemoveBackgrounds | 
-| Remove all borders | TableRemoveBorders | 
-| Decrease row gaps | TableRowDecreaseGaps | 
-| Add row gaps | TableRowGapsEven | 
-| Add row gaps (including top and bottom sides) | TableRowGapsOdd | 
-| Increase row gaps | TableRowIncreaseGaps | 
-| Remove row gaps | TableRowRemoveGaps | 
-| Sum row (values left from selected cells) | TableRowSum | 
-| Decrease margins of selected table or selected cells | TablesMarginsDecrease | 
-| Increase margins of selected table or selected cells | TablesMarginsIncrease | 
-| Remove margins of selected table or selected cells | TablesMarginsToZero | 
-| Sum column (values above selected cells) | TableSum | 
-| Transpose table | TableTranspose | 
-| Crosses | TextBulletsCrosses | 
-| Ticks | TextBulletsTicks | 
-| Insert Copyright | TextInsertCopyright | 
-| Insert Euro | TextInsertEuro | 
-| Insert NonBreakingSpace | TextInsertNoBreakSpace | 
-| Unlock position of all shapes on all slides | UnLockAllShapesOnAllSlides | 
-| Update position and dimensions of selected multislide shape on all slides | UpdateTaggedShapePositionAndDimensions | 
+| Feature                                        | Feature description                                                                                                                                     | Macro Reference                                |
+|------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
+| Copy Slides to Library                         | Copies the selected slides to the slide library                                                                                                         | AddSelectedSlidesToLibraryFile                 |
+| Anonymize with Lorem Ipsum                     | Replaces text on the selected slides or the entire presentation with Lorem Ipsum to anonymize content                                                   | AnonymizeWithLoremIpsum                        |
+| Apply custom style 1                           | Applies custom style 1 to the selected text or shape                                                                                                    | ApplyCustom1                                   |
+| Apply custom style 2                           | Applies custom style 2 to the selected text or shape                                                                                                    | ApplyCustom2                                   |
+| Apply custom style 3                           | Applies custom style 3 to the selected text or shape                                                                                                    | ApplyCustom3                                   |
+| Apply custom style 4                           | Applies custom style 4 to the selected text or shape                                                                                                    | ApplyCustom4                                   |
+| Apply custom style 5                           | Applies custom style 5 to the selected text or shape                                                                                                    | ApplyCustom5                                   |
+| Apply Heading 1                                | Applies the Heading 1 style to the selected text or shape                                                                                               | ApplyH1                                        |
+| Apply Heading 2                                | Applies the Heading 2 style to the selected text or shape                                                                                               | ApplyH2                                        |
+| Apply Heading 3                                | Applies the Heading 3 style to the selected text or shape                                                                                               | ApplyH3                                        |
+| Apply Paragraph                                | Applies the Paragraph style to the selected text or shape                                                                                               | ApplyParagraph                                 |
+| Apply Quote                                    | Applies the Quote style to the selected text or shape                                                                                                   | ApplyQuote                                     |
+| Apply Same Crop                                | Applies the same crop settings to all selected pictures                                                                                                 | ApplySameCropToSelectedImages                  |
+| Arrange Shapes                                 | Arranges the selected shapes into a structured layout                                                                                                   | ArrangeShapes                                  |
+| Average Star Rating                            | Inserts a star rating indicator based on the average of the selected shapes                                                                             | AverageFivePointStars                          |
+| Average Harvey Ball                            | Calculates and inserts a Harvey Ball representing the average of the selected Harvey Balls                                                              | AverageHarveyBall                              |
+| Average RAG Status                             | Inserts a RAG status indicator based on the average of the selected shapes                                                                              | AverageRAGStatus                               |
+| Add page numbers                               | Adds page numbers to the selected slides or the entire presentation, skipping the first slide                                                           | CleanUpAddSlideNumbers                         |
+| Move and hide slides                           | Moves the selected slides to the end of the presentation and hides them from the slideshow                                                              | CleanUpHideAndMoveSelectedSlides               |
+| Remove animations                              | Removes all animations from the selected slides or from the entire presentation                                                                         | CleanUpRemoveAnimationsFromAllSlides           |
+| Remove comments                                | Removes comments from the selected slides or from the entire presentation                                                                               | CleanUpRemoveCommentsFromAllSlides             |
+| Remove hidden slides                           | Removes all hidden slides from the presentation                                                                                                         | CleanUpRemoveHiddenSlides                      |
+| Remove entry transitions                       | Removes entry transitions from the selected slides or from the entire presentation                                                                      | CleanUpRemoveSlideShowTransitionsFromAllSlides |
+| Remove speaker notes                           | Removes speaker notes from the selected slides or from the entire presentation                                                                          | CleanUpRemoveSpeakerNotesFromAllSlides         |
+| Remove unused master slides                    | Removes all master slides that are not used by any slide in the presentation                                                                            | CleanUpRemoveUnusedMasterSlides                |
+| Color Bold Text                                | Colors bold text in the selected shapes automatically                                                                                                   | ColorBoldTextColorAutomatically                |
+| Color Bold Text                                | Colors bold text in the selected shapes using a chosen color                                                                                            | ColorBoldTextColorPicker                       |
+| Connect Bottom to Top                          | Connects the bottom side of the first selected rectangle to the top side of the second selected rectangle                                               | ConnectRectangleShapesBottomToTop              |
+| Connect Left to Right                          | Connects the left side of the first selected rectangle to the right side of the second selected rectangle                                               | ConnectRectangleShapesLeftToRight              |
+| Connect Right to Left                          | Connects the right side of the first selected rectangle to the left side of the second selected rectangle                                               | ConnectRectangleShapesRightToLeft              |
+| Connect Top to Bottom                          | Connects the top side of the first selected rectangle to the bottom side of the second selected rectangle                                               | ConnectRectangleShapesTopToBottom              |
+| Convert Comments                               | Converts all comments on all slides into sticky notes                                                                                                   | ConvertAllCommentsToStickyNotes                |
+| Convert Comments                               | Converts all comments on this slide into sticky notes                                                                                                   | ConvertCommentsToStickyNotes                   |
+| Convert Shapes to Table                        | Converts the selected shapes into a table                                                                                                               | ConvertShapesToTable                           |
+| Convert slides to pictures                     | Converts the selected slides or the entire presentation into readonly picture slides                                                                    | ConvertSlidesToPictures                        |
+| Convert Table to Shapes                        | Converts the selected table into individual shapes                                                                                                      | ConvertTableToShapes                           |
+| Copy Position                                  | Copies the position and dimensions of the selected shape                                                                                                | CopyPosition                                   |
+| Copy to All Masters                            | Copies the selected shape to all master slides                                                                                                          | CopySelectedShapeToAllMasters                  |
+| Copy to Master                                 | Copies the selected shape to the master slide                                                                                                           | CopySelectedShapeToMaster                      |
+| Copy to Used Masters                           | Copies the selected shape to all master slides currently in use                                                                                         | CopySelectedShapeToUsedMasters                 |
+| Copy Notes                                     | Copies the slide notes to the clipboard                                                                                                                 | CopySlideNotesToClipboardOnly                  |
+| Export Notes to Word                           | Exports the slide notes into a Word document                                                                                                            | CopySlideNotesToWord                           |
+| Copy Storyline                                 | Copies the storyline to the clipboard                                                                                                                   | CopyStorylineToClipBoardOnly                   |
+| Export Storyline                               | Exports the storyline into a Word document                                                                                                              | CopyStorylineToWord                            |
+| Agenda Pages                                   | Creates or updates agenda pages                                                                                                                         | CreateOrUpdateMasterAgenda                     |
+| Create stylesheet layout                       | Creates a stylesheet layout on the master of the current slide                                                                                          | CreateStyleSheetLayout                         |
+| Create stylesheets on all masters              | Creates stylesheets on all slide masters                                                                                                                | CreateStyleSheetOnAllMasters                   |
+| Trim Padding                                   | Trims the picture’s padding based on its edge colors                                                                                                    | CropSelectedImageByDominantEdgeColor           |
+| Delete Stamps                                  | Deletes all stamp shapes on all slides                                                                                                                  | DeleteStampsOnAllSlides                        |
+| Delete Stamps                                  | Deletes all stamp shapes on this slide                                                                                                                  | DeleteStampsOnSlide                            |
+| Delete Notes                                   | Deletes all sticky notes on all slides                                                                                                                  | DeleteStickyNotesOnAllSlides                   |
+| Delete Notes                                   | Deletes all sticky notes on this slide                                                                                                                  | DeleteStickyNotesOnSlide                       |
+| Delete Multislide Shape                        | Deletes the selected multislide shape on all slides                                                                                                     | DeleteTaggedShapes                             |
+| E‑mail Selected Slides                         | E‑mails the selected slides as a new presentation                                                                                                       | EmailSelectedSlides                            |
+| E‑mail as PDF                                  | E‑mails the selected slides as a PDF file                                                                                                               | EmailSelectedSlidesAsPDF                       |
+| Excel Mail Merge                               | Duplicates the presentation using data from an Excel file                                                                                               | ExcelFullFileMailMerge                         |
+| Excel Mail Merge                               | Duplicates this slide using data from an Excel file                                                                                                     | ExcelMailMerge                                 |
+| Export stylesheet                              | Exports the current stylesheet                                                                                                                          | ExportStylesToPPTX                             |
+| Cross‑Slide Steps Counter                      | Inserts a new cross‑slide steps counter                                                                                                                 | GenerateCrossSlideStepsCounter                 |
+| 0.5 Star                                       | Inserts or updates a 0.5‑star rating indicator                                                                                                          | GenerateFivePointStars05                       |
+| 1 Star                                         | Inserts or updates a 1‑star rating indicator                                                                                                            | GenerateFivePointStars10                       |
+| 1.5 Star                                       | Inserts or updates a 1.5-star rating indicator                                                                                                          | GenerateFivePointStars15                       |
+| 2 Star                                         | Inserts or updates a 2‑star rating indicator                                                                                                            | GenerateFivePointStars20                       |
+| 2.5 Star                                       | Inserts or updates a 2.5‑star rating indicator                                                                                                          | GenerateFivePointStars25                       |
+| 3 Star                                         | Inserts or updates a 3‑star rating indicator                                                                                                            | GenerateFivePointStars30                       |
+| 3.5 Star                                       | Inserts or updates a 3.5‑star rating indicator                                                                                                          | GenerateFivePointStars35                       |
+| 4 Star                                         | Inserts or updates a 4‑star rating indicator                                                                                                            | GenerateFivePointStars40                       |
+| 4.5 Star                                       | Inserts or updates a 4.5‑star rating indicator                                                                                                          | GenerateFivePointStars45                       |
+| 5 Star                                         | Inserts or updates a 5‑star rating indicator                                                                                                            | GenerateFivePointStars50                       |
+| Harvey Ball 10%                                | Inserts a Harvey Ball showing 10% completion                                                                                                            | GenerateHarveyBall10                           |
+| Harvey Ball 100%                               | Inserts a Harvey Ball showing 100% completion                                                                                                           | GenerateHarveyBall100                          |
+| Harvey Ball 20%                                | Inserts a Harvey Ball showing 20% completion                                                                                                            | GenerateHarveyBall20                           |
+| Harvey Ball 25%                                | Inserts a Harvey Ball showing 25% completion                                                                                                            | GenerateHarveyBall25                           |
+| Harvey Ball 30%                                | Inserts a Harvey Ball showing 30% completion                                                                                                            | GenerateHarveyBall30                           |
+| Harvey Ball 33%                                | Inserts a Harvey Ball showing 33% completion                                                                                                            | GenerateHarveyBall33                           |
+| Harvey Ball 40%                                | Inserts a Harvey Ball showing 40% completion                                                                                                            | GenerateHarveyBall40                           |
+| Harvey Ball 50%                                | Inserts a Harvey Ball showing 50% completion                                                                                                            | GenerateHarveyBall50                           |
+| Harvey Ball 60%                                | Inserts a Harvey Ball showing 60% completion                                                                                                            | GenerateHarveyBall60                           |
+| Harvey Ball 67%                                | Inserts a Harvey Ball showing 67% completion                                                                                                            | GenerateHarveyBall67                           |
+| Harvey Ball 70%                                | Inserts a Harvey Ball showing 70% completion                                                                                                            | GenerateHarveyBall70                           |
+| Harvey Ball 75%                                | Inserts a Harvey Ball showing 75% completion                                                                                                            | GenerateHarveyBall75                           |
+| Harvey Ball 80%                                | Inserts a Harvey Ball showing 80% completion                                                                                                            | GenerateHarveyBall80                           |
+| Harvey Ball 90%                                | Inserts a Harvey Ball showing 90% completion                                                                                                            | GenerateHarveyBall90                           |
+| Custom Harvey Ball                             | Inserts a Harvey Ball with a custom completion value                                                                                                    | GenerateHarveyBallCustom                       |
+| RAG Status: Amber                              | Inserts or updates an Amber RAG status indicator                                                                                                        | GenerateRAGStatusAmber                         |
+| RAG Status: Green                              | Inserts or updates a Green RAG status indicator                                                                                                         | GenerateRAGStatusGreen                         |
+| RAG Status: Red                                | Inserts or updates a Red RAG status indicator                                                                                                           | GenerateRAGStatusRed                           |
+| Add CONFIDENTIAL stamp                         | Stamps the slide with CONFIDENTIAL                                                                                                                      | GenerateStampConfidential                      |
+| Add DO NOT DISTRIBUTE stamp                    | Stamps the slide with DO NOT DISTRIBUTE                                                                                                                 | GenerateStampDoNotDistribute                   |
+| Add DRAFT stamp                                | Stamps the slide with DRAFT                                                                                                                             | GenerateStampDraft                             |
+| Add NEW stamp                                  | Stamps the slide with NEW                                                                                                                               | GenerateStampNew                               |
+| Add TO APPENDIX stamp                          | Stamps the slide with TO APPENDIX                                                                                                                       | GenerateStampToAppendix                        |
+| Add TO BE REMOVED stamp                        | Stamps the slide with TO BE REMOVED                                                                                                                     | GenerateStampToBeRemoved                       |
+| Add UPDATED stamp                              | Stamps the slide with UPDATED                                                                                                                           | GenerateStampUpdated                           |
+| Steps Counter                                  | Inserts a new steps counter                                                                                                                             | GenerateStepsCounter                           |
+| Insert Note                                    | Inserts a sticky note on the slide                                                                                                                      | GenerateStickyNote                             |
+| Group by Columns                               | Groups the selected shapes into columns based on their horizontal positions                                                                             | GroupShapesByColumns                           |
+| Group by Rows                                  | Groups the selected shapes into rows based on their vertical positions                                                                                  | GroupShapesByRows                              |
+| Hide Tags on Slides                            | Hides the hidden tags on all slides                                                                                                                     | HideTagsOnSlide                                |
+| Insert Merge Fields                            | Inserts merge fields from an Excel file                                                                                                                 | ImportHeadersFromExcel                         |
+| Import stylesheet                              | Imports a stylesheet                                                                                                                                    | ImportStylesFromPPTX                           |
+| Increase Transparency                          | Increases the transparency of the selected shapes                                                                                                       | IncreaseShapeTransparency                      |
+| Set Position                                   | Sets the position of the selected shapes using precise values                                                                                           | InitialiseSetPositionAppEventHandler           |
+| Insert Caption                                 | Inserts a caption for the selected shape                                                                                                                | InsertCaption                                  |
+| Insert Column Left                             | Inserts a column to the left while preserving the widths of the other columns                                                                           | InsertColumnToLeftKeepOtherColumnWidths        |
+| Insert Column Right                            | Inserts a column to the right while preserving the widths of the other columns                                                                          | InsertColumnToRightKeepOtherColumnWidths       |
+| 5 Circles Horizontal                           | Inserts a horizontal legend with 5 circles                                                                                                              | InsertLegendCircleHorizontalFive               |
+| 10 Circles Horizontal                          | Inserts a horizontal legend with 10 circles                                                                                                             | InsertLegendCircleHorizontalTen                |
+| 3 Circles Horizontal                           | Inserts a horizontal legend with 3 circles                                                                                                              | InsertLegendCircleHorizontalThree              |
+| 5 Circles Vertical                             | Inserts a vertical legend with 5 circles                                                                                                                | InsertLegendCircleVerticalFive                 |
+| 10 Circles Vertical                            | Inserts a vertical legend with 10 circles                                                                                                               | InsertLegendCircleVerticalTen                  |
+| 3 Circles Vertical                             | Inserts a vertical legend with 3 circles                                                                                                                | InsertLegendCircleVerticalThree                |
+| 5 Squares Horizontal                           | Inserts a horizontal legend with 5 squares                                                                                                              | InsertLegendSquareHorizontalFive               |
+| 10 Squares Horizontal                          | Inserts a horizontal legend with 10 squares                                                                                                             | InsertLegendSquareHorizontalTen                |
+| 3 Squares Horizontal                           | Inserts a horizontal legend with 3 squares                                                                                                              | InsertLegendSquareHorizontalThree              |
+| 5 Squares Vertical                             | Inserts a vertical legend with 5 squares                                                                                                                | InsertLegendSquareVerticalFive                 |
+| 10 Squares Vertical                            | Inserts a vertical legend with 10 squares                                                                                                               | InsertLegendSquareVerticalTen                  |
+| 3 Squares Vertical                             | Inserts a vertical legend with 3 squares                                                                                                                | InsertLegendSquareVerticalThree                |
+| Insert Merge Field                             | Inserts an empty merge field                                                                                                                            | InsertMergeField                               |
+| Insert Process                                 | Inserts a process SmartArt graphic                                                                                                                      | InsertProcessSmartArt                          |
+| Insert QR Code                                 | Inserts a QR code that links to a URL                                                                                                                   | InsertQRCode                                   |
+| Watermark and convert to pictures              | Adds a watermark to the selected slides or the entire presentation and then converts them into readonly picture slides                                  | InsertWatermarkAndConvertSlidesToPictures      |
+| Instrumenta Keys Editor                        | Open Instrumenta Keys Shortcut Editor                                                                                                                   | InstrumentaKeysEditor                          |
+| Lock Position on All Slides                    | Locks the position of all shapes on all slides                                                                                                          | LockAllShapesOnAllSlides                       |
+| Toggle Lock Aspect Ratio                       | Toggles the lock aspect ratio setting of the selected shapes                                                                                            | LockAspectRatioToggleSelectedShapes            |
+| Toggle Lock Position on All Slides             | Toggles the locked position setting of all shapes on all slides                                                                                         | LockToggleAllShapesOnAllSlides                 |
+| Toggle Lock Position                           | Toggles the locked position setting of the selected shapes                                                                                              | LockToggleSelectedShapes                       |
+| Manual Mail Merge                              | Replaces all merge fields on all slides using manually entered values                                                                                   | ManualMailMerge                                |
+| Move to All Masters                            | Moves the selected shape to all master slides                                                                                                           | MoveSelectedShapeToAllMasters                  |
+| Move to Master                                 | Moves the selected shape to the master slide                                                                                                            | MoveSelectedShapeToMaster                      |
+| Move to Used Masters                           | Moves the selected shape to all master slides currently in use                                                                                          | MoveSelectedShapeToUsedMasters                 |
+| Move stamps off slides                         | Move all stamp shapes just outside the visible slide area on every slide.                                                                               | MoveStampsOffAllSlides                         |
+| Move Stamps                                    | Moves all stamp shapes off the slide                                                                                                                    | MoveStampsOffSlide                             |
+| Move Stamps                                    | Moves all stamp shapes onto the slides                                                                                                                  | MoveStampsOnAllSlides                          |
+| Move Stamps                                    | Moves all stamp shapes onto the slide                                                                                                                   | MoveStampsOnSlide                              |
+| Move Notes                                     | Moves all sticky notes off all slides                                                                                                                   | MoveStickyNotesOffAllSlides                    |
+| Move Notes                                     | Moves all sticky notes off the slide                                                                                                                    | MoveStickyNotesOffSlide                        |
+| Move Notes                                     | Moves all sticky notes onto all slides                                                                                                                  | MoveStickyNotesOnAllSlides                     |
+| Move Notes                                     | Moves all sticky notes onto the slide                                                                                                                   | MoveStickyNotesOnSlide                         |
+| Move Column Left                               | Moves the selected table column left                                                                                                                    | MoveTableColumnLeft                            |
+| Move Column Left (Ignore Borders)              | Moves the selected table column left while ignoring borders                                                                                             | MoveTableColumnLeftIgnoreBorders               |
+| Move Column Left (Text Only)                   | Moves the selected table column left using text only                                                                                                    | MoveTableColumnLeftTextOnly                    |
+| Move Column Right                              | Moves the selected table column right                                                                                                                   | MoveTableColumnRight                           |
+| Move Column Right (Ignore Borders)             | Moves the selected table column right while ignoring borders                                                                                            | MoveTableColumnRightIgnoreBorders              |
+| Move Column Right (Text Only)                  | Moves the selected table column right using text only                                                                                                   | MoveTableColumnRightTextOnly                   |
+| Move Row Down                                  | Moves the selected table row down                                                                                                                       | MoveTableRowDown                               |
+| Move Row Down (Ignore Borders)                 | Moves the selected table row down while ignoring borders                                                                                                | MoveTableRowDownIgnoreBorders                  |
+| Move Row Down (Text Only)                      | Moves the selected table row down using text only                                                                                                       | MoveTableRowDownTextOnly                       |
+| Move Row Up                                    | Moves the selected table row up                                                                                                                         | MoveTableRowUp                                 |
+| Move Row Up (Ignore Borders)                   | Moves the selected table row up while ignoring borders                                                                                                  | MoveTableRowUpIgnoreBorders                    |
+| Move Row Up (Text Only)                        | Moves the selected table row up using text only                                                                                                         | MoveTableRowUpTextOnly                         |
+| Align Bottom                                   | Aligns the selected objects to the bottom                                                                                                               | ObjectsAlignBottoms                            |
+| Align Center                                   | Aligns the selected objects to the center                                                                                                               | ObjectsAlignCenters                            |
+| Align Left                                     | Aligns the selected objects to the left                                                                                                                 | ObjectsAlignLefts                              |
+| Align Middle                                   | Aligns the selected objects to the middle                                                                                                               | ObjectsAlignMiddles                            |
+| Align Right                                    | Aligns the selected objects to the right                                                                                                                | ObjectsAlignRights                             |
+| Center to Table Cells                          | Centers the selected shapes within their corresponding table cells                                                                                      | ObjectsAlignToTable                            |
+| Center to Table Columns                        | Centers the selected shapes within their corresponding table columns                                                                                    | ObjectsAlignToTableColumn                      |
+| Center to Table Rows                           | Centers the selected shapes within their corresponding table rows                                                                                       | ObjectsAlignToTableRow                         |
+| Align Top                                      | Aligns the selected objects to the top                                                                                                                  | ObjectsAlignTops                               |
+| No Autofit                                     | Disables text autofit for the selected shapes                                                                                                           | ObjectsAutoSizeNone                            |
+| Resize Shape to Fit Text                       | Resizes the selected shapes to fit their text                                                                                                           | ObjectsAutoSizeShapeToFitText                  |
+| Resize Text to Fit                             | Resizes text to fit within the selected shapes                                                                                                          | ObjectsAutoSizeTextToFitShape                  |
+| Clone Down                                     | Clones the selected shapes downward                                                                                                                     | ObjectsCloneDown                               |
+| Clone Right                                    | Clones the selected shapes to the right                                                                                                                 | ObjectsCloneRight                              |
+| Copy Rounded Corner                            | Copies the rounded corner radius from the first selected shape to the other selected shapes                                                             | ObjectsCopyRoundedCorner                       |
+| Copy Shape Type and Adjustments                | Copies the shape type and all adjustment values from the first selected shape to the other selected shapes                                              | ObjectsCopyShapeTypeAndAdjustments             |
+| Decrease line spacing                          | Decreases spacing between lines in the selected text                                                                                                    | ObjectsDecreaseLineSpacing                     |
+| Decrease paragraph spacing                     | Decreases spacing before and after each paragraph                                                                                                       | ObjectsDecreaseLineSpacingBeforeAndAfter       |
+| Decrease Horizontal Gap                        | Decreases the horizontal gap between the selected shapes                                                                                                | ObjectsDecreaseSpacingHorizontal               |
+| Decrease Vertical Gap                          | Decreases the vertical gap between the selected shapes                                                                                                  | ObjectsDecreaseSpacingVertical                 |
+| Distribute Horizontally                        | Evenly distributes the selected objects horizontally                                                                                                    | ObjectsDistributeHorizontally                  |
+| Distribute Vertically                          | Evenly distributes the selected objects vertically                                                                                                      | ObjectsDistributeVertically                    |
+| Increase line spacing                          | Increases spacing between lines in the selected text                                                                                                    | ObjectsIncreaseLineSpacing                     |
+| Increase paragraph spacing                     | Increases spacing before and after each paragraph                                                                                                       | ObjectsIncreaseLineSpacingBeforeAndAfter       |
+| Increase Horizontal Gap                        | Increases the horizontal gap between the selected shapes                                                                                                | ObjectsIncreaseSpacingHorizontal               |
+| Increase Vertical Gap                          | Increases the vertical gap between the selected shapes                                                                                                  | ObjectsIncreaseSpacingVertical                 |
+| Decrease Margins                               | Decreases the margins of the selected shapes                                                                                                            | ObjectsMarginsDecrease                         |
+| Increase Margins                               | Increases the margins of the selected shapes                                                                                                            | ObjectsMarginsIncrease                         |
+| Remove Margins                                 | Removes the margins of the selected shapes                                                                                                              | ObjectsMarginsToZero                           |
+| Remove hyperlinks                              | Removes all hyperlinks from the selected shapes                                                                                                         | ObjectsRemoveHyperlinks                        |
+| Remove Horizontal Gap                          | Removes the horizontal gap between the selected shapes toward the left                                                                                  | ObjectsRemoveSpacingHorizontal                 |
+| Remove Horizontal Gap                          | Removes the horizontal gap between the selected shapes toward the right                                                                                 | ObjectsRemoveSpacingHorizontalRight            |
+| Remove Vertical Gap                            | Removes the vertical gap between the selected shapes upward                                                                                             | ObjectsRemoveSpacingVertical                   |
+| Remove Vertical Gap                            | Removes the vertical gap between the selected shapes downward                                                                                           | ObjectsRemoveSpacingVerticalDown               |
+| Remove text                                    | Removes all text from the selected shapes                                                                                                               | ObjectsRemoveText                              |
+| Same Height                                    | Sets all selected objects to the same height                                                                                                            | ObjectsSameHeight                              |
+| Same Height and Width                          | Sets all selected objects to the same height and width                                                                                                  | ObjectsSameHeightAndWidth                      |
+| Same Width                                     | Sets all selected objects to the same width                                                                                                             | ObjectsSameWidth                               |
+| Select Shapes by Fill and Line Color           | Selects all shapes that share the same fill and line color as the selected shape                                                                        | ObjectsSelectBySameFillAndLineColor            |
+| Select Shapes by Fill Color                    | Selects all shapes that share the same fill color as the selected shape                                                                                 | ObjectsSelectBySameFillColor                   |
+| Select Shapes by Height                        | Selects all shapes that have the same height as the selected shape                                                                                      | ObjectsSelectBySameHeight                      |
+| Select Shapes by Line Color                    | Selects all shapes that share the same line color as the selected shape                                                                                 | ObjectsSelectBySameLineColor                   |
+| Select Shapes by Type                          | Selects all shapes that are the same type as the selected shape                                                                                         | ObjectsSelectBySameType                        |
+| Select Shapes by Width                         | Selects all shapes that have the same width as the selected shape                                                                                       | ObjectsSelectBySameWidth                       |
+| Select Shapes by Size                          | Selects all shapes that have the same width and height as the selected shape                                                                            | ObjectsSelectBySameWidthAndHeight              |
+| Size to Narrowest                              | Sizes all selected objects to the narrowest one                                                                                                         | ObjectsSizeToNarrowest                         |
+| Size to Shortest                               | Sizes all selected objects to the shortest one                                                                                                          | ObjectsSizeToShortest                          |
+| Size to Tallest                                | Sizes all selected objects to the tallest one                                                                                                           | ObjectsSizeToTallest                           |
+| Size to Widest                                 | Sizes all selected objects to the widest one                                                                                                            | ObjectsSizeToWidest                            |
+| Stretch Down                                   | Stretches the selected shapes downward                                                                                                                  | ObjectsStretchBottom                           |
+| Stretch to Bottommost Shape                    | Stretches the selected shapes to the top edge of the bottommost shape                                                                                   | ObjectsStretchBottomShapeTop                   |
+| Stretch Left                                   | Stretches the selected shapes toward the left                                                                                                           | ObjectsStretchLeft                             |
+| Stretch to Leftmost Shape                      | Stretches the selected shapes to the right edge of the leftmost shape                                                                                   | ObjectsStretchLeftShapeRight                   |
+| Stretch Right                                  | Stretches the selected shapes toward the right                                                                                                          | ObjectsStretchRight                            |
+| Stretch to Rightmost Shape                     | Stretches the selected shapes to the left edge of the rightmost shape                                                                                   | ObjectsStretchRightShapeLeft                   |
+| Stretch Up                                     | Stretches the selected shapes upward                                                                                                                    | ObjectsStretchTop                              |
+| Stretch to Topmost Shape                       | Stretches the selected shapes to the bottom edge of the topmost shape                                                                                   | ObjectsStretchTopShapeBottom                   |
+| Swap Position                                  | Swaps the positions of the two selected shapes                                                                                                          | ObjectsSwapPosition                            |
+| Swap Position (Centered)                       | Swaps the positions of the two selected shapes while centering them                                                                                     | ObjectsSwapPositionCentered                    |
+| Swap text (with formatting)                    | Swaps text between the selected shapes and preserves formatting                                                                                         | ObjectsSwapText                                |
+| Swap text (no formatting)                      | Swaps text between the selected shapes without transferring formatting                                                                                  | ObjectsSwapTextNoFormatting                    |
+| Delete Strikethrough Text                      | Deletes all text that has strikethrough formatting in the selected shapes                                                                               | ObjectsTextDeleteStrikethrough                 |
+| Merge text                                     | Merges text from all selected shapes into the first shape                                                                                               | ObjectsTextMerge                               |
+| Split text by paragraphs                       | Splits the text into multiple shapes using paragraph breaks                                                                                             | ObjectsTextSplitByParagraph                    |
+| Toggle Text Wrap                               | Toggles text wrap on the selected shapes                                                                                                                | ObjectsTextWordwrapToggle                      |
+| Toggle Autofit                                 | Toggles text autofit for the selected shapes                                                                                                            | ObjectsToggleAutoSize                          |
+| Slide Library                                  | Opens the slide library                                                                                                                                 | OpenSlideLibraryFile                           |
+| Open stylesheet                                | Opens the slide master stylesheet                                                                                                                       | OpenStyleSheet                                 |
+| Optimized (10 Iterations)                      | Optimizes the height of the selected table using ten iterations                                                                                         | OptimizeTableHeight10Iterations                |
+| Optimized (20 Iterations)                      | Optimizes the height of the selected table using twenty iterations                                                                                      | OptimizeTableHeight20Iterations                |
+| Optimized (3 Iterations)                       | Optimizes the height of the selected table using three iterations                                                                                       | OptimizeTableHeight3Iterations                 |
+| Optimized (5 Iterations)                       | Optimizes the height of the selected table using five iterations                                                                                        | OptimizeTableHeight5Iterations                 |
+| Quick Optimize                                 | Quickly optimizes the height of the selected table                                                                                                      | OptimizeTableHeightQuick                       |
+| Paste Position                                 | Pastes the copied position and dimensions onto the selected shape                                                                                       | PastePosition                                  |
+| Paste Position and Dimensions                  | Pastes the copied position and dimensions onto the selected shape                                                                                       | PastePositionAndDimensions                     |
+| Paste Storyline in Shape                       | Pastes the storyline text into the selected shape                                                                                                       | PasteStorylineInSelectedShape                  |
+| Crop to Slide                                  | Crops the selected picture or shape to the slide boundaries                                                                                             | PictureCropToSlide                             |
+| Renumber Captions                              | Renumbers all captions in the presentation                                                                                                              | ReNumberCaptions                               |
+| Rectify Lines                                  | Straightens the selected lines                                                                                                                          | RectifyLines                                   |
+| Remove all style tags                          | Removes all Instrumenta style tags from the presentation                                                                                                | RemoveAllInstrumentaStyleTags                  |
+| Remove stylesheet                              | Removes the stylesheet from the current slide master                                                                                                    | RemoveInstrumentaStylesheet                    |
+| Remove stylesheets from all masters            | Removes stylesheets from all slide masters                                                                                                              | RemoveStyleSheetsFromAllMasters                |
+| Resize and Space Horizontally                  | Resizes and spaces the selected shapes horizontally with equal spacing                                                                                  | ResizeAndSpaceEvenHorizontal                   |
+| Resize and Space Horizontally (Preserve First) | Resizes and spaces the selected shapes horizontally while preserving the first shape                                                                    | ResizeAndSpaceEvenHorizontalPreserveFirst      |
+| Resize and Space Horizontally (Preserve Last)  | Resizes and spaces the selected shapes horizontally while preserving the last shape                                                                     | ResizeAndSpaceEvenHorizontalPreserveLast       |
+| Resize and Space Vertically                    | Resizes and spaces the selected shapes vertically with equal spacing                                                                                    | ResizeAndSpaceEvenVertical                     |
+| Resize and Space Vertically (Preserve First)   | Resizes and spaces the selected shapes vertically while preserving the first shape                                                                      | ResizeAndSpaceEvenVerticalPreserveFirst        |
+| Resize and Space Vertically (Preserve Last)    | Resizes and spaces the selected shapes vertically while preserving the last shape                                                                       | ResizeAndSpaceEvenVerticalPreserveLast         |
+| Save Selected Slides                           | Saves the selected slides as a new presentation                                                                                                         | SaveSelectedSlides                             |
+| Replace Colors                                 | Replaces colors in the selected slides or the entire presentation                                                                                       | ScanAndManageColors                            |
+| Replace Colors                                 | Replaces colors in the selected shapes                                                                                                                  | ScanColorsInSelectedShapes                     |
+| Run the selected preset                        | Run preset                                                                                                                                              | ScriptPreset_Run                               |
+| Select Cross‑Slide Steps Counters              | Selects all cross‑slide steps counters on this slide                                                                                                    | SelectAllCrossSlideStepsCounter                |
+| Select Steps Counters                          | Selects all steps counters on this slide                                                                                                                | SelectAllStepsCounter                          |
+| About                                          | Opens the About dialog with version and support information                                                                                             | ShowAboutDialog                                |
+| Set proofing language                          | Sets the proofing language on all shapes across all slides                                                                                              | ShowChangeSpellCheckLanguageForm               |
+| Custom Legend                                  | Opens the dialog to insert a custom legend                                                                                                              | ShowCustomInsertLegend                         |
+| Feature Search                                 | Opens the search tool to quickly find Instrumenta features and commands                                                                                 | ShowFeatureSearch                              |
+| Create Multislide Shape                        | Copies the selected shape to multiple slides                                                                                                            | ShowFormCopyShapeToMultipleSlides              |
+| Manage Tags                                    | Manages the hidden tags applied to shapes or slides                                                                                                     | ShowFormManageTags                             |
+| Select Slides by Tag                           | Selects slides based on their tags or a specific stamp                                                                                                  | ShowFormSelectSlidesByTag                      |
+| Storyline Builder                              | Opens the storyline builder to capture SCQ and structure your message                                                                                   | ShowPyramidBuilder                             |
+| Instrumenta Script Editor                      | Opens the Instrumenta script editor                                                                                                                     | ShowScriptEditor                               |
+| Instrumenta Settings                           | Opens the Instrumenta settings dialog                                                                                                                   | ShowSettings                                   |
+| Slide Grader                                   | Analyses all slides for common quality issues including action titles, double spaces, font inconsistencies, text overflow, overlapping shapes, and more | ShowSlideGrader                                |
+| Insert Slide from Library                      | Opens the slide library to insert a slide into the presentation                                                                                         | ShowSlideLibrary                               |
+| Show Tags on Slides                            | Shows the hidden tags on all slides                                                                                                                     | ShowTagsOnSlide                                |
+| Split Table by Column                          | Splits the selected table into two tables at the current column                                                                                         | SplitTableByColumn                             |
+| Split Table by Row                             | Splits the selected table into two tables at the current row                                                                                            | SplitTableByRow                                |
+| Decrease Column Gaps                           | Decreases the gaps between the selected table columns                                                                                                   | TableColumnDecreaseGaps                        |
+| Add Column Gaps                                | Adds even gaps between the selected table columns                                                                                                       | TableColumnGapsEven                            |
+| Add Column Gaps (Outer Edges)                  | Adds gaps between the selected table columns, including the left and right edges                                                                        | TableColumnGapsOdd                             |
+| Increase Column Gaps                           | Increases the gaps between the selected table columns                                                                                                   | TableColumnIncreaseGaps                        |
+| Remove Column Gaps                             | Removes the gaps between the selected table columns                                                                                                     | TableColumnRemoveGaps                          |
+| Distribute Columns (Ignore Gaps)               | Distributes the selected columns evenly while ignoring any gaps between them                                                                            | TableDistributeColumnsWithGaps                 |
+| Distribute Rows (Ignore Gaps)                  | Distributes the selected rows evenly while ignoring any gaps between them                                                                               | TableDistributeRowsWithGaps                    |
+| Quick Format Table                             | Applies a quick formatting style to the selected table                                                                                                  | TableQuickFormat                               |
+| Remove Cell Fills                              | Removes the fill colors from the selected table cells                                                                                                   | TableRemoveBackgrounds                         |
+| Remove Borders                                 | Removes all borders from the selected table cells                                                                                                       | TableRemoveBorders                             |
+| Decrease Row Gaps                              | Decreases the gaps between the selected table rows                                                                                                      | TableRowDecreaseGaps                           |
+| Add Row Gaps                                   | Adds even gaps between the selected table rows                                                                                                          | TableRowGapsEven                               |
+| Add Row Gaps (Outer Edges)                     | Adds gaps between the selected table rows, including the top and bottom edges                                                                           | TableRowGapsOdd                                |
+| Increase Row Gaps                              | Increases the gaps between the selected table rows                                                                                                      | TableRowIncreaseGaps                           |
+| Remove Row Gaps                                | Removes the gaps between the selected table rows                                                                                                        | TableRowRemoveGaps                             |
+| Sum Row                                        | Sums the values in the selected row using the cells to the left                                                                                         | TableRowSum                                    |
+| Sum Column                                     | Sums the values in the selected column using the cells above                                                                                            | TableSum                                       |
+| Transpose Table                                | Transposes the selected table                                                                                                                           | TableTranspose                                 |
+| Decrease Margins                               | Decreases the cell margins in the selected table or selected cells                                                                                      | TablesMarginsDecrease                          |
+| Increase Margins                               | Increases the cell margins in the selected table or selected cells                                                                                      | TablesMarginsIncrease                          |
+| Remove Margins                                 | Removes the cell margins from the selected table or selected cells                                                                                      | TablesMarginsToZero                            |
+| Cross‑mark bullets                             | Applies cross‑mark bullets to the selected text                                                                                                         | TextBulletsCrosses                             |
+| Tick‑mark bullets                              | Applies tick‑mark bullets to the selected text                                                                                                          | TextBulletsTicks                               |
+| Insert copyright symbol                        | Inserts a copyright symbol at the cursor position                                                                                                       | TextInsertCopyright                            |
+| Insert Euro symbol                             | Inserts a Euro symbol at the cursor position                                                                                                            | TextInsertEuro                                 |
+| Insert non‑breaking space                      | Inserts a non‑breaking space that prevents line wrapping                                                                                                | TextInsertNoBreakSpace                         |
+| Unlock Position on All Slides                  | Unlocks the position of all shapes on all slides                                                                                                        | UnLockAllShapesOnAllSlides                     |
+| Update styled shapes                           | Updates all styled shapes to match the current stylesheet                                                                                               | UpdateFullShapeStyles                          |
+| Update Multislide Shape                        | Updates the position and dimensions of the selected multislide shape on all slides                                                                      | UpdateTaggedShapePositionAndDimensions         |
